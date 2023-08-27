@@ -1,9 +1,24 @@
-# Portfolio von Hector, Webentwickler
+# Portfolio-Website
 
-Hallo! Ich bin Hector, ein Webentwickler aus Köln. Dies ist mein Portfolio, in dem ich einige meiner Webentwicklungsprojekte vorstelle.
+Dies ist die Quellcode-Repository für meine Portfolio-Website unter .
 
-## über mich
+## Über die Website
 
-Ich bin ein frischer Absolvent des Fullstack-Bootcamps von Supercode mit Sitz in Düsseldorf. Dort habe ich moderne Webentwicklungstechnologien wie HTML, CSS, JavaScript, React, Vite und Git gelernt. Meine Stärken liegen im Frontend-Bereich, ich bin aber lernbegierig und offen für Backend-Technologien.
+Diese Website dient als mein Portfolio als Webentwickler. Sie enthält:
 
-Ich arbeite gerne im Team, bin kommunikativ und motiviert. Meine Leidenschaft ist es, digitale Lösungen zu bauen, die einen Mehrwert für Nutzer schaffen. Ich suche eine Stelle als Webentwickler in einem innovativen Unternehmen in Köln.
+Eine Homepage mit einer kurzen Bio und meinen Kontaktinformationen
+Eine Projekte-Seite, auf der ich einige meiner Webentwicklungsprojekte vorstelle
+Eine Blog-Seite, auf der ich Artikel zu Themen wie Webentwicklung und Programmierung veröffentliche
+Eine Seite mit meinen Qualifikationen und Fähigkeiten
+Die Website ist responsive und funktioniert auf mobilen und Desktop-Geräten.
+
+### Technologien
+
+Ich habe folgende Technologien verwendet, um diese Website zu bauen:
+
+- [HTML5] und [CSS3]
+- [SCSS] als CSS-Präprozessor
+- [JavaScript]
+- [React.js] für interaktive Komponenten
+- [Git] und [GitHub] für Versionskontrolle
+  Die Website verwendet moderne Webentwicklungstechniken wie Flexbox, CSS Grid und React Hooks.
