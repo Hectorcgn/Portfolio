@@ -4,12 +4,22 @@ header {
   margin-block: 20px;
   margin-inline: auto;
   max-width: 90%;
-  border-block: 1px solid lightpink;
+  border-block: 1px solid #ffb6c1;
 
   .navbar_section {
     display: flex;
-    padding-block: 20px;
     justify-content: space-between;
+    align-items: center;
+    .logo_name_box {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 10px;
+        max-width: 90px;
+        padding: 2px;
+        border-radius: 25%;
+      }
+    }
     ul {
       display: flex;
       gap: 25px;
