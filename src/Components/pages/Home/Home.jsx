@@ -9,7 +9,7 @@ import javascripimg from "../../../assets/img/javascript-1.svg";
 import reactimg from "../../../assets/img/react-2.svg";
 import gitimg from "../../../assets/img/git.svg";
 import githubimg from "../../../assets/img/github.svg";
-import figmabimg from "../../../assets/img/Figma.svg";
+import figmabimg from "../../../assets/img/figma.svg";
 function Home() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {

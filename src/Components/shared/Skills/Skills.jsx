@@ -7,7 +7,7 @@ import javascripimg from "../../../assets/img/javascript-1.svg";
 import reactimg from "../../../assets/img/react-2.svg";
 import githubimg from "../../../assets/img/github.svg";
 import gitimg from "../../../assets/img/git.svg";
-import figmabimg from "../../../assets/img/Figma.svg";
+import figmabimg from "../../../assets/img/figma.svg";
 
 function Skills() {
   useEffect(() => {
