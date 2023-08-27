@@ -24,3 +24,6 @@ Mit Vite als Build-Tool konnte ich die Entwicklungsgeschwindigkeit maximieren un
 Sass hat den Styling-Prozess vereinfacht, indem es mir ermöglichte, Variablen, Nesting und Mixins zu nutzen.
 
 Insgesamt war dies ein sehr produktiver Stack, um eine React-Anwendung zu entwickeln! Lassen Sie mich wissen, wenn Sie weitere Fragen zu den verwendeten Technologien haben.
+Vielen Dank!
+
+Hector
