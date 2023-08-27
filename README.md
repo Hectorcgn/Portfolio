@@ -2,7 +2,7 @@
 
 Hallo! Ich bin Hector, ein Webentwickler aus Köln. Dies ist mein Portfolio, in dem ich einige meiner Webentwicklungsprojekte vorstelle.
 
-# über mich
+## über mich
 
 Ich bin ein frischer Absolvent des Fullstack-Bootcamps von Supercode mit Sitz in Düsseldorf. Dort habe ich moderne Webentwicklungstechnologien wie HTML, CSS, JavaScript, React, Vite und Git gelernt. Meine Stärken liegen im Frontend-Bereich, ich bin aber lernbegierig und offen für Backend-Technologien.
 
