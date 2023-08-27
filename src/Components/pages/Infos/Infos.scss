@@ -1,0 +1,30 @@
+.bio_box {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  .bio_text_box {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    gap: 20px;
+    span {
+      color: lightpink;
+    }
+  }
+  .selfie_box {
+    max-width: 45%;
+    overflow: hidden;
+    img {
+      max-width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+.slide-section {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.slide-section.active {
+  opacity: 1;
+}

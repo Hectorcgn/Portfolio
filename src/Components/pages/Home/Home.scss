@@ -1,0 +1,110 @@
+.button {
+  h2 {
+    transition: all 0.8s ease-in-out;
+  }
+  h2:hover {
+    color: lightpink;
+  }
+}
+.home_welcome_box {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  .welcome_text_box {
+    display: flex;
+    max-width: 45%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    span {
+      color: lightpink;
+    }
+    button {
+      margin-block: 5%;
+      margin-left: auto;
+    }
+  }
+  .selfie_box {
+    max-width: 50%;
+    overflow: hidden;
+    img {
+      max-width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+.zitat_box {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding-inline: 10%;
+  padding-block: 20px;
+  margin-block: 50px;
+  border: 1px solid lightpink;
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.header_box {
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  gap: 5%;
+  margin-block: 50px;
+  span {
+    background-color: lightpink;
+    min-height: 2px;
+    min-width: 50%;
+  }
+  a {
+    margin-left: 8.5%;
+  }
+}
+.skills_img_box {
+  display: flex;
+  gap: 20px;
+  img {
+    max-width: 10%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid lightpink;
+  }
+}
+.info_box {
+  display: flex;
+  flex-direction: column;
+  button {
+    margin-block: 5%;
+    margin-left: auto;
+  }
+}
+.slide-left {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.slide-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-left:not(.active) {
+  transform: translateX(-100%);
+}
+.slide-right {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.slide-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-right:not(.active) {
+  transform: translateX(100%);
+}

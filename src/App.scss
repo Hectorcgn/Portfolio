@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: mainfont;
+  src: url("./assets/font/Fira_Code/FiraCode-VariableFont_wght.ttf");
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: mainfont;
+  color: #fff;
+}
+p {
+  font-family: mainfont;
+  color: #fff;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.video-container {
+  height: 100vh;
+
+  .background-video {
+    position: fixed;
+    scale: 2;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+  }
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-inline: 50px;
+  padding-block: 50px;
+  max-width: 90%;
+  margin-inline: auto;
+  border-block: 1px solid lightpink;
+}
+
+li {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: lightpink;
+}
+button {
+  background-color: transparent;
+  font-family: mainfont;
+  max-width: fit-content;
+  padding: 10px 20px;
+  border: 2px solid lightpink;
+}
+button:hover {
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

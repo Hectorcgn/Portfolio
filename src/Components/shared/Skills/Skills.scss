@@ -1,0 +1,62 @@
+.skill_box {
+  span {
+    min-width: 20%;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    margin-block: 20px;
+  }
+  .logos {
+    max-width: 10%;
+  }
+  .text_box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    img {
+      max-width: 10%;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 20px;
+      border: 1px solid lightpink;
+    }
+  }
+  .finisch {
+    background: linear-gradient(to right, lightgreen, rgba(0, 128, 0, 0.5));
+  }
+  .levelbox {
+    display: flex;
+    min-width: 25%;
+    span {
+      min-height: 20px;
+      border: 1px solid lightpink;
+    }
+  }
+}
+.slide-left {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.slide-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-left:not(.active) {
+  transform: translateX(-100%);
+}
+.slide-right {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.slide-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-right:not(.active) {
+  transform: translateX(100%);
+}
