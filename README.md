@@ -1,8 +1,9 @@
-# React + Vite
+# Portfolio von Hector, Webentwickler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hallo! Ich bin Hector, ein Webentwickler aus Köln. Dies ist mein Portfolio, in dem ich einige meiner Webentwicklungsprojekte vorstelle.
 
-Currently, two official plugins are available:
+# über mich
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ich bin ein frischer Absolvent des Fullstack-Bootcamps von Supercode mit Sitz in Düsseldorf. Dort habe ich moderne Webentwicklungstechnologien wie HTML, CSS, JavaScript, React, Vite und Git gelernt. Meine Stärken liegen im Frontend-Bereich, ich bin aber lernbegierig und offen für Backend-Technologien.
+
+Ich arbeite gerne im Team, bin kommunikativ und motiviert. Meine Leidenschaft ist es, digitale Lösungen zu bauen, die einen Mehrwert für Nutzer schaffen. Ich suche eine Stelle als Webentwickler in einem innovativen Unternehmen in Köln.
