@@ -19,6 +19,21 @@ header {
         padding: 2px;
         border-radius: 25%;
       }
+      .pulsate {
+        animation: pulsate 3s infinite;
+      }
+
+      @keyframes pulsate {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(0.8);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
     }
     ul {
       display: flex;

@@ -5,12 +5,10 @@ import Home from "./Components/pages/Home/Home";
 import Projekte from "./Components/pages/Projekte/Projekte";
 import Infos from "./Components/pages/Infos/Infos";
 import Kontakt from "./Components/pages/Kontakt/Kontakt";
-
 function App() {
   return (
     <>
       <Navbar />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projekte" element={<Projekte />} />
@@ -20,5 +18,4 @@ function App() {
     </>
   );
 }
-
 export default App;

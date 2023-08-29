@@ -8,7 +8,7 @@ function Navbar() {
     <header>
       <section className="navbar_section">
         <article className="logo_name_box">
-          <img src={logo} alt="" />
+          <img src={logo} alt="Main Applogo" className="pulsate" />
           <h1>Hector</h1>
         </article>
         <ul>
