@@ -1,6 +1,6 @@
 # Portfolio-Website
 
-Dies ist die Quellcode-Repository für meine ![Portfolio-Website](https://hector-portfolio.netlify.app).
+Dies ist die Quellcode-Repository für meine [Portfolio-Website](https://hector-portfolio.netlify.app).
 
 ## Über die Website
 
