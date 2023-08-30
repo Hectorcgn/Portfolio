@@ -24,7 +24,7 @@ function Navbar() {
           </li>
           <li>
             <Link to={"/infos"}>
-              <h2>Infos über mich</h2>
+              <h2>Über mich</h2>
             </Link>
           </li>
           <li>

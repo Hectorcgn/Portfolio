@@ -22,7 +22,7 @@ function Infos() {
     <main>
       <section className="bio_box slide-section">
         <article className="bio_text_box">
-          <h2>Infos über mich</h2>
+          <h2>Über mich</h2>
           <p>
             Ich bin <span>Hector</span>, ein Webentwickler aus Köln. Ich bin ein
             frischer Absolvent des Fullstack-Bootcamps von Supercode mit Sitz in
