@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-import imgself from "../../../assets/img/selfie1.jpg";
+import imgself from "../../../assets/img/img_1.png";
 import "./Home.scss";
 import { Link } from "react-router-dom";
 import htmlimg from "../../../assets/img/html-1.svg";
@@ -49,6 +49,7 @@ function Home() {
         </article>
         <article className="selfie_box">
           <img src={imgself} alt="profiel_bild" />
+          <div className="bg_animation"></div>
         </article>
       </section>
       <section className="zitat_box slide-right">
