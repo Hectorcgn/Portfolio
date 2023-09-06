@@ -24,12 +24,55 @@
       margin-left: auto;
     }
   }
+
   .selfie_box {
-    max-width: 50%;
-    overflow: hidden;
+    max-width: 30%;
+    position: relative;
+    padding: 20px;
     img {
-      max-width: 100%;
-      object-fit: contain;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+    }
+    .bg_animation {
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      z-index: -1;
+      height: 80%;
+      width: 80%;
+      position: absolute;
+      border-radius: 50%;
+      background: radial-gradient(
+        circle,
+        rgba(255, 0, 0, 0.5),
+        rgba(0, 255, 0, 0.5),
+        rgba(0, 0, 255, 0.5)
+      );
+      animation: bgAnimation 10s infinite ease-in-out;
+    }
+    @keyframes bgAnimation {
+      0% {
+        top: 0px;
+        left: 0px;
+      }
+      25% {
+        top: 0px;
+        left: calc(100% - 80%);
+      }
+      50% {
+        top: calc(100% - 80%);
+        left: calc(100% - 80%);
+      }
+      75% {
+        top: calc(100% - 80%);
+        left: 0px;
+      }
+      100% {
+        top: 0px;
+        left: 0px;
+      }
     }
   }
 }
