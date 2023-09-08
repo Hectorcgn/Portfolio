@@ -1,6 +1,9 @@
 import React from "react";
 import { useEffect } from "react";
 import imgself from "../../../assets/img/img_1.png";
+import schereteinpapier from "../../../assets/img/schere_stein_papier.png";
+import zahlraten from "../../../assets/img/Zahl-Raten.png";
+import wetterapp from "../../../assets/img/Wetter-app.png";
 import "./Home.scss";
 import { Link } from "react-router-dom";
 import htmlimg from "../../../assets/img/html-1.svg";
@@ -10,6 +13,7 @@ import reactimg from "../../../assets/img/react-2.svg";
 import gitimg from "../../../assets/img/git.svg";
 import githubimg from "../../../assets/img/github.svg";
 import figmabimg from "../../../assets/img/figma.svg";
+
 function Home() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -69,6 +73,20 @@ function Home() {
           <Link to={"/projekte"} className="button">
             <h2>... mehr</h2>
           </Link>
+        </article>
+        <article className="project_preview">
+          <div>
+            <img src={zahlraten} alt="Zahl Raten vorschau" />
+            <h2>Zahlen Raten</h2>
+          </div>
+          <div>
+            <img src={schereteinpapier} alt="Schere stein papier vorschau" />
+            <h2>Schere Stein Papier</h2>
+          </div>
+          <div>
+            <img src={wetterapp} alt="Wetter App Vorschau" />
+            <h2>Wetter App</h2>
+          </div>
         </article>
       </section>
       <section className="skills_box slide-right">
